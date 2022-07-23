@@ -1,0 +1,140 @@
+.single-camp-section {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.single-camp-section .container {
+  width: 80%;
+  margin: auto;
+}
+
+.single-camp-section .container .flex-container {
+  margin-top: 4rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 4rem;
+}
+
+.single-camp-section .container .flex-container .left-col {
+  width: 30%;
+  height: 450px;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  padding: 2.5rem;
+}
+
+.single-camp-section .container .flex-container .left-col .map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../Assets/Map.png");
+}
+
+.single-camp-section .container .flex-container .right-col {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0.4rem;
+  gap: 3rem;
+}
+
+.single-camp-section .container .flex-container .right-col .camp {
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 0.4rem;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.single-camp-section .container .flex-container .right-col .camp img {
+  position: relative;
+  width: 100%;
+}
+
+.single-camp-section .container .flex-container .right-col .camp .top {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.single-camp-section .container .flex-container .right-col .camp .top .camp-title {
+  font-size: 1.3rem;
+}
+
+.single-camp-section .container .flex-container .right-col .camp .camp-long-desc {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.single-camp-section .container .flex-container .right-col .camp .camp-author {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+}
+
+.single-camp-section .container .flex-container .right-col .opinions {
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.single-camp-section .container .flex-container .right-col .opinions .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.single-camp-section .container .flex-container .right-col .opinions .review {
+  margin: 1rem 0rem;
+  font-size: 1.1rem;
+  max-width: 38rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.single-camp-section .container .flex-container .right-col .opinions button {
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+/*# sourceMappingURL=SingleCamp.css.map */

@@ -1,0 +1,87 @@
+.campgrounds-section {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  //overflow: hidden;
+  .container {
+    width: 80%;
+    margin: auto;
+
+    .hero {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+
+      padding: 3rem 2.5rem;
+      background: rgb(255, 255, 240);
+
+      .paragraph {
+        margin-top: 0.6rem;
+        max-width: 360px;
+      }
+
+      form {
+        margin-top: 1rem;
+        display: flex;
+        gap: 0.5rem;
+        .input-group {
+          width: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.4rem;
+          border: 1px solid #ccc;
+          border-radius: 0.4rem;
+          padding: 1rem;
+          position: relative;
+          background: white;
+          input {
+            position: relative;
+            border: 0;
+            background: transparent;
+            width: 100%;
+            height: 100%;
+            outline: none;
+            font-size: 1rem;
+          }
+        }
+        margin-bottom: 1rem;
+      }
+    }
+
+    .grid-container {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+      gap: 1rem;
+      place-items: center;
+      .card {
+        grid-column: span 1;
+        width: 22rem;
+        padding: 1rem;
+        border-radius: 0.2rem;
+        border: 1px solid #ccc;
+        img {
+          width: 100%;
+          max-width: 20rem;
+          object-fit: cover;
+          border-radius: 0.4rem;
+        }
+        .card-title {
+          margin-top: 0.7rem;
+        }
+        .card-desc {
+          margin-top: 0.7rem;
+        }
+        button {
+          margin-top: 1rem;
+          width: 100%;
+          background: white;
+          color: black;
+          font-weight: bold;
+          border: 1px solid #cccc;
+        }
+      }
+    }
+  }
+}
